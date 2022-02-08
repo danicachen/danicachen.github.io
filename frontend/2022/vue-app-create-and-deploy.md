@@ -37,7 +37,7 @@ categories:
                 open: true
                 }
             }
-    ```
+        ```
 
    4.打开`package.json`文件查看可用命令
         ```
@@ -52,7 +52,7 @@ categories:
 
 ## 开发阶段（略过）
 ## 部署准备阶段
-    首先要明白[./dist](./../../../back-end/deploy/how-webpack-work.md)文件夹的由来
+    首先要明白[./dist]文件夹的由来
 
    - 3.1 在github创建新仓库
     ![new repo](/img/create-repo.jpg)
@@ -71,7 +71,7 @@ categories:
     - 3.5 点击菜单的pages，新建`gh-pages`拿来放`./dist`
     ![new branches](/img/gh-pages.jpg)
 
-3. 配置github action
+1. 配置github action
    - 4.1 点action，[创建工作流程](https://docs.github.com/cn/actions/using-workflows/workflow-syntax-for-github-actions)，对照工作流程的存放位置，在本地创建`.yml`文件
     ![workflow](/img/workflow-path.jpg)
 
