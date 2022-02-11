@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: DANICA STATION
-tagline: 真正的答案不是在脑海之中，而在走入人海和生活。
+tagline: “尤其要紧的是，你必须对你自己忠实”。
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
