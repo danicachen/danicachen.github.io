@@ -1,7 +1,8 @@
 ---
 home: true
 heroText: DANICA STATION
-tagline: “尤其要紧的是，你必须对你自己忠实”。
+tagline: 
+Think big,Start small,Learn fast.
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
