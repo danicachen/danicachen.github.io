@@ -1,8 +1,7 @@
 ---
 home: true
 heroText: DANICA STATION
-tagline: 
-Think big,Start small,Learn fast.
+tagline: Think big,Start small,Learn fast.
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
