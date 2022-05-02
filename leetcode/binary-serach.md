@@ -13,27 +13,30 @@ categories:
 ## 何为二分查找
 将搜索区间以中位值为界，划分成两个区间。然后将中位值与目标值做比较，如果中位值比目标值大，即目标值处于左区间，缩小右边界；若中位值比目标值小，即目标处于右区间，缩小左边界。继续重复第一步，将新的搜索区间以新的中位值为界，划分成两个区间。
 
-``` flow
-    st=>start: Start
-    i=>inputoutput: 输入数组与查找目标值
-    op=>operation: 计算中位值mid
-    cond=>condition: 左右边界未重叠
-                    right > left 
-    cond2=>condition: 目标值是否落在左区间
-    target < mid
-    op1=>operation: 缩小右区间边界至mid+1
-    right=mid+1
-    op2=>operation:  缩小左区间边界至mid
-    left=mid
-    sub2=>subroutine: 返回left值（重叠边界），为查找值
-    e=>end: 结束
-
-    st->i->op->cond
-    cond(no,left)->sub2->e
-    cond(yes,bottom)->cond2
-    cond2(no, left)->op2->cond(right)
-    cond2(yes, bottom)->op1->cond
 ```
+@flowstart
+st=>start: Start
+i=>inputoutput: 输入数组与查找目标值
+op=>operation: 计算中位值mid
+cond=>condition: 左右边界未重叠
+                right > left 
+cond2=>condition: 目标值是否落在左区间
+target < mid
+op1=>operation: 缩小右区间边界至mid+1
+right=mid+1
+op2=>operation:  缩小左区间边界至mid
+left=mid
+sub2=>subroutine: 返回left值（重叠边界），为查找值
+e=>end: 结束
+
+st->i->op->cond
+cond(no,left)->sub2->e
+cond(yes,bottom)->cond2
+cond2(no, left)->op2->cond(right)
+cond2(yes, bottom)->op1->cond
+@flowend
+```
+
 
 ## 各步骤注意点
 1. 明确左右界限和中间值
