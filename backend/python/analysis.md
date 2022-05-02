@@ -2,11 +2,9 @@
 title: 用python分析关键词的出现频次
 date: 2022/01/15
 tags:
- - 数据采集
- - 数据分析
- - python
+ - 爬虫
 categories:
- - backend
+ - python
 ---
 
 ## 数据结构

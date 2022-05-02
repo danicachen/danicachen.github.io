@@ -2,9 +2,9 @@
 title: 递归
 date: 2021/12/12
 tags:
- - JavaScript
+ - 算法
 categories:
- - algorithm
+ - leetcode
 ---
 ::: tip 参考资料：
 1. [js递归算法](https://www.bilibili.com/video/BV1RQ4y1D7UC?p=8&spm_id_from=pageDriver) 时间：35:10
