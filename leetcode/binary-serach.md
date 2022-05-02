@@ -13,7 +13,7 @@ categories:
 ## 何为二分查找
 将搜索区间以中位值为界，划分成两个区间。然后将中位值与目标值做比较，如果中位值比目标值大，即目标值处于左区间，缩小右边界；若中位值比目标值小，即目标处于右区间，缩小左边界。继续重复第一步，将新的搜索区间以新的中位值为界，划分成两个区间。
 ## 流程图
-<!-- ```flow
+```flow
 st=>start: Start
 i=>inputoutput: 输入数组与查找目标值
 op=>operation: 计算中位值mid
@@ -33,8 +33,8 @@ cond(no,left)->sub2->e
 cond(yes,bottom)->cond2
 cond2(no, left)->op2->cond(right)
 cond2(yes, bottom)->op1->cond
-``` -->
-![output](/img/flowchartbybinarysearch.jpg)
+```
+![output](/img/flowchartbybinarysearch.png)
 
 ## 各步骤注意点
 1. 明确左右界限和中间值
