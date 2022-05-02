@@ -34,7 +34,7 @@ cond(yes,bottom)->cond2
 cond2(no, left)->op2->cond(right)
 cond2(yes, bottom)->op1->cond
 ``` -->
-![output](img/flowchartbybinarysearch.jpg)
+![output](/img/flowchartbybinarysearch.jpg)
 
 ## 各步骤注意点
 1. 明确左右界限和中间值
