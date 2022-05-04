@@ -98,7 +98,7 @@ module.exports = {
   "markdown": {
     "lineNumbers": true
   },
-  "plugins":{
-    'flowchart':true
-  }
+  plugins: [
+    'vuepress-plugin-mermaidjs'
+]
 }

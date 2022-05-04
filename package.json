@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "vuepress": "1.8.2",
+    "vuepress-plugin-mermaidjs": "^2.0.0-beta.2",
     "vuepress-theme-reco": "1.6.10"
   },
   "description": "test",
